@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F514A250-9E66-4EF1-8657-7CBAA08F8525}</ProjectGuid>
+    <RootNamespace>GWSystem10</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\GWRelation\OpenCV\OpencvDebugeconfigX64.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\GWRelation\OpenCV\OpencvReleaseconfigX64.props" />
+    <Import Project="C:\GWRelation\tensorflowCPUpro\ReleaseX64cppCallpythonPropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lucamapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lucamapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>RELEASE_DEBUG;WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdminFocusSet.h" />
+    <ClInclude Include="AdminMotorSet.h" />
+    <ClInclude Include="AdminScanSet.h" />
+    <ClInclude Include="AdminSet.h" />
+    <ClInclude Include="ADOAccess.h" />
+    <ClInclude Include="ADOConn.h" />
+    <ClInclude Include="ADOView.h" />
+    <ClInclude Include="ADOViewAccess.h" />
+    <ClInclude Include="AlgorithmParaSet.h" />
+    <ClInclude Include="AllParaSet.h" />
+    <ClInclude Include="BGRMeanDeviation.h" />
+    <ClInclude Include="ButtonST.h" />
+    <ClInclude Include="CameraParaSetDlg.h" />
+    <ClInclude Include="CApplication0.h" />
+    <ClInclude Include="CchromosomeHandle.h" />
+    <ClInclude Include="ChromosomeAlgorithm.h" />
+    <ClInclude Include="ChromosomeResult.h" />
+    <ClInclude Include="CHROPrintReport.h" />
+    <ClInclude Include="CodeAmend.h" />
+    <ClInclude Include="CodeReset.h" />
+    <ClInclude Include="Control_Dev.h" />
+    <ClInclude Include="CRange0.h" />
+    <ClInclude Include="CSeries.h" />
+    <ClInclude Include="CTChart.h" />
+    <ClInclude Include="CutOutGrayRGB.h" />
+    <ClInclude Include="CvvImage.h" />
+    <ClInclude Include="CV_picture.h" />
+    <ClInclude Include="CWorkbook.h" />
+    <ClInclude Include="CWorkbooks.h" />
+    <ClInclude Include="CWorksheet.h" />
+    <ClInclude Include="CWorksheets.h" />
+    <ClInclude Include="Diary.h" />
+    <ClInclude Include="DiaryManagement.h" />
+    <ClInclude Include="EditTrans.h" />
+    <ClInclude Include="ErodeDilateSeparateMN.h" />
+    <ClInclude Include="FileOperate.h" />
+    <ClInclude Include="findUltra_erosion.h" />
+    <ClInclude Include="FocusSet.h" />
+    <ClInclude Include="GWSystem1.0.h" />
+    <ClInclude Include="GWSystem1.0Dlg.h" />
+    <ClInclude Include="HardwareInit.h" />
+    <ClInclude Include="IllusionExcelFile.h" />
+    <ClInclude Include="lucamapi.h" />
+    <ClInclude Include="lucamerr.h" />
+    <ClInclude Include="MainWindowImgShow.h" />
+    <ClInclude Include="MarkImgCHRO.h" />
+    <ClInclude Include="MicroNucleusAlgorithm.h" />
+    <ClInclude Include="MicroNucleusHandle.h" />
+    <ClInclude Include="MicroNucleusResult.h" />
+    <ClInclude Include="MNPrintReport.h" />
+    <ClInclude Include="MotorControlDlg.h" />
+    <ClInclude Include="mywatershed.h" />
+    <ClInclude Include="ReadAndWriteForAccess.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScanAndSaveImg.h" />
+    <ClInclude Include="Scanning_Capture.h" />
+    <ClInclude Include="Scanning_Control.h" />
+    <ClInclude Include="ShowAllSlides.h" />
+    <ClInclude Include="SlideSet.h" />
+    <ClInclude Include="StaticTrans.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserAmend.h" />
+    <ClInclude Include="UserBuild.h" />
+    <ClInclude Include="UserLoad.h" />
+    <ClInclude Include="UserMangement.h" />
+    <ClInclude Include="染色体算法文件\BlankFrame.h" />
+    <ClInclude Include="染色体算法文件\BoolSort.h" />
+    <ClInclude Include="染色体算法文件\ClassClusterInfo.h" />
+    <ClInclude Include="染色体算法文件\ClassifyChromo.h" />
+    <ClInclude Include="染色体算法文件\CNNpredict.h" />
+    <ClInclude Include="染色体算法文件\Count.h" />
+    <ClInclude Include="染色体算法文件\CR.h" />
+    <ClInclude Include="染色体算法文件\CutFirst.h" />
+    <ClInclude Include="染色体算法文件\CutSecond.h" />
+    <ClInclude Include="染色体算法文件\D8ConnectedComponent.h" />
+    <ClInclude Include="染色体算法文件\DeleteInterferencePointONThin.h" />
+    <ClInclude Include="染色体算法文件\DrawClassChromInfoVector.h" />
+    <ClInclude Include="染色体算法文件\ExtendThinImage.h" />
+    <ClInclude Include="染色体算法文件\FilteringMethod.h" />
+    <ClInclude Include="染色体算法文件\HSVRemoveImpurity.h" />
+    <ClInclude Include="染色体算法文件\InterestRegion.h" />
+    <ClInclude Include="染色体算法文件\Int_to_String.h" />
+    <ClInclude Include="染色体算法文件\Invert0_1.h" />
+    <ClInclude Include="染色体算法文件\KmeansCluster.h" />
+    <ClInclude Include="染色体算法文件\Label2Vector_RGB.h" />
+    <ClInclude Include="染色体算法文件\LineFitLeastSquares.h" />
+    <ClInclude Include="染色体算法文件\LocateCentromere.h" />
+    <ClInclude Include="染色体算法文件\MixDistanceGraylevel.h" />
+    <ClInclude Include="染色体算法文件\MyFunction.h" />
+    <ClInclude Include="染色体算法文件\mywatershed.h" />
+    <ClInclude Include="染色体算法文件\NonezeroMeanGrayValue.h" />
+    <ClInclude Include="染色体算法文件\NonezeroMeanRGBVector.h" />
+    <ClInclude Include="染色体算法文件\normalizeImgSizeCNN.h" />
+    <ClInclude Include="染色体算法文件\Point2Vector.h" />
+    <ClInclude Include="染色体算法文件\RandomColor.h" />
+    <ClInclude Include="染色体算法文件\res.h" />
+    <ClInclude Include="染色体算法文件\SmoothThin.h" />
+    <ClInclude Include="染色体算法文件\ThinImage.h" />
+    <ClInclude Include="染色体算法文件\TrimThin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdminFocusSet.cpp" />
+    <ClCompile Include="AdminMotorSet.cpp" />
+    <ClCompile Include="AdminScanSet.cpp" />
+    <ClCompile Include="AdminSet.cpp" />
+    <ClCompile Include="ADOAccess.cpp" />
+    <ClCompile Include="ADOConn.cpp" />
+    <ClCompile Include="ADOView.cpp" />
+    <ClCompile Include="ADOViewAccess.cpp" />
+    <ClCompile Include="AlgorithmParaSet.cpp" />
+    <ClCompile Include="AllParaSet.cpp" />
+    <ClCompile Include="BGRMeanDeviation.cpp" />
+    <ClCompile Include="ButtonST.cpp" />
+    <ClCompile Include="CameraParaSetDlg.cpp" />
+    <ClCompile Include="CchromosomeHandle.cpp" />
+    <ClCompile Include="ChromosomeAlgorithm.cpp" />
+    <ClCompile Include="ChromosomeResult.cpp" />
+    <ClCompile Include="CHROPrintReport.cpp" />
+    <ClCompile Include="CodeAmend.cpp" />
+    <ClCompile Include="CodeReset.cpp" />
+    <ClCompile Include="Control_Dev.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CTChart.cpp" />
+    <ClCompile Include="CutOutGrayRGB.cpp" />
+    <ClCompile Include="CvvImage.cpp" />
+    <ClCompile Include="CV_picture.cpp" />
+    <ClCompile Include="Diary.cpp" />
+    <ClCompile Include="DiaryManagement.cpp" />
+    <ClCompile Include="EditTrans.cpp" />
+    <ClCompile Include="ErodeDilateSeparateMN.cpp" />
+    <ClCompile Include="FileOperate.cpp" />
+    <ClCompile Include="findUltra_erosion.cpp" />
+    <ClCompile Include="FocusSet.cpp" />
+    <ClCompile Include="GWSystem1.0.cpp" />
+    <ClCompile Include="GWSystem1.0Dlg.cpp" />
+    <ClCompile Include="HardwareInit.cpp" />
+    <ClCompile Include="IllusionExcelFile.cpp" />
+    <ClCompile Include="MainWindowImgShow.cpp" />
+    <ClCompile Include="MarkImgCHRO.cpp" />
+    <ClCompile Include="MicroNucleusAlgorithm.cpp" />
+    <ClCompile Include="MicroNucleusHandle.cpp" />
+    <ClCompile Include="MicroNucleusResult.cpp" />
+    <ClCompile Include="MNPrintReport.cpp" />
+    <ClCompile Include="MotorControlDlg.cpp" />
+    <ClCompile Include="mywatershed.cpp" />
+    <ClCompile Include="ReadAndWriteForAccess.cpp" />
+    <ClCompile Include="ScanAndSaveImg.cpp" />
+    <ClCompile Include="Scanning_Capture.cpp" />
+    <ClCompile Include="Scanning_Control.cpp" />
+    <ClCompile Include="ShowAllSlides.cpp" />
+    <ClCompile Include="SlideSet.cpp" />
+    <ClCompile Include="StaticTrans.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserAmend.cpp" />
+    <ClCompile Include="UserBuild.cpp" />
+    <ClCompile Include="UserLoad.cpp" />
+    <ClCompile Include="UserMangement.cpp" />
+    <ClCompile Include="染色体算法文件\BoolSort.cpp" />
+    <ClCompile Include="染色体算法文件\ClassClusterInfo.cpp" />
+    <ClCompile Include="染色体算法文件\ClassifyChromo.cpp" />
+    <ClCompile Include="染色体算法文件\CNNpredict.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\Count.cpp" />
+    <ClCompile Include="染色体算法文件\CutFirst.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\CutSecond.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\D8ConnectedComponent.cpp" />
+    <ClCompile Include="染色体算法文件\DrawClassChromInfoVector.cpp" />
+    <ClCompile Include="染色体算法文件\HSVRemoveImpurity.cpp" />
+    <ClCompile Include="染色体算法文件\InterestRegion.cpp" />
+    <ClCompile Include="染色体算法文件\Int_to_String.cpp" />
+    <ClCompile Include="染色体算法文件\Invert0_1.cpp" />
+    <ClCompile Include="染色体算法文件\KmeansCluster.cpp" />
+    <ClCompile Include="染色体算法文件\Label2Vector_RGB.cpp" />
+    <ClCompile Include="染色体算法文件\MyFunction.cpp" />
+    <ClCompile Include="染色体算法文件\mywatershed.cpp" />
+    <ClCompile Include="染色体算法文件\NonezeroMeanGrayValue.cpp" />
+    <ClCompile Include="染色体算法文件\NonezeroMeanRGBVector.cpp" />
+    <ClCompile Include="染色体算法文件\normalizeImgSizeCNN.cpp" />
+    <ClCompile Include="染色体算法文件\RandomColor.cpp" />
+    <ClCompile Include="染色体算法文件\res.cpp" />
+    <ClCompile Include="着丝粒点识别\BlankFrame.cpp" />
+    <ClCompile Include="着丝粒点识别\CR.cpp" />
+    <ClCompile Include="着丝粒点识别\DeleteInterferencePointONThin.cpp" />
+    <ClCompile Include="着丝粒点识别\ExtendThinImage.cpp" />
+    <ClCompile Include="着丝粒点识别\FilteringMethod.cpp" />
+    <ClCompile Include="着丝粒点识别\LineFitLeastSquares.cpp" />
+    <ClCompile Include="着丝粒点识别\LocateCentromere.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\MixDistanceGraylevel.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\Point2Vector.cpp" />
+    <ClCompile Include="着丝粒点识别\SmoothThin.cpp" />
+    <ClCompile Include="着丝粒点识别\ThinImage.cpp" />
+    <ClCompile Include="着丝粒点识别\TrimThin.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GWSystem1.0.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GWSystem10.rc2" />
+    <None Include="res\model.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\camera.png" />
+    <Image Include="res\edit_undo.png" />
+    <Image Include="res\game_pad.png" />
+    <Image Include="res\GWSystem1.0.ico" />
+    <Image Include="res\setting.png" />
+    <Image Include="res\toolbar1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lucamapi.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GWSystem1.0.rc" _x007B_B6C10489-FB89-11D4-93C9-006008A7EED4_x007D_="CTchart1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

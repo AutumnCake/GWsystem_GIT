@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\UserManage">
+      <UniqueIdentifier>{89b869a4-312f-4ef7-8511-f34986a8de97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UserManage">
+      <UniqueIdentifier>{151b166e-ae4a-4192-91db-036787f7e095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ADO">
+      <UniqueIdentifier>{db78dd7a-bbe1-4388-a111-886f91dd13b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ADO">
+      <UniqueIdentifier>{7fd25b93-c156-4684-9a5b-156c7ea94346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SlideSet">
+      <UniqueIdentifier>{28bcdb59-6c37-4e0c-9f66-1af004e94c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SlideSet">
+      <UniqueIdentifier>{ddfacb63-8456-48ca-b0d4-e1d6fa66e427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ScanAndSave">
+      <UniqueIdentifier>{873122e6-dd40-412e-bf2c-2f85168c4d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ScanAndSave">
+      <UniqueIdentifier>{55c145c4-a6ef-4895-800a-3d6d3b353be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ImgShow">
+      <UniqueIdentifier>{8eb02b79-86a5-4dcd-8306-39f405ac836a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ImgShow">
+      <UniqueIdentifier>{ca94da76-b387-4106-bb88-3ca88595f8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TeeChart">
+      <UniqueIdentifier>{d18e2c9c-9ef0-436e-9a51-72a69d745cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MicroNucleus">
+      <UniqueIdentifier>{34287aa5-326f-4d66-8403-a1f1d52226a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MicroNucleus">
+      <UniqueIdentifier>{402ee1cc-cc8c-46af-822f-e2fb7ea26d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Report">
+      <UniqueIdentifier>{8488c440-3dd9-4f08-8eaa-214ffd5be9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TeeChart">
+      <UniqueIdentifier>{3d5602e7-e467-4720-a94e-5d3d8e0017f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Chromosome">
+      <UniqueIdentifier>{2b1d1cb9-71ef-4e8b-9e49-36b54c9b0d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chromosome">
+      <UniqueIdentifier>{1d3be2fc-f696-434a-a362-fd08619c2bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MicroNucleus\Algorithm">
+      <UniqueIdentifier>{142f6dee-29e7-4c38-9fb3-92fdd0c8c604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MicroNucleus\Algorithm">
+      <UniqueIdentifier>{c6f47619-2004-4e60-9414-a2b34173dee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Chromosome\Algorithm">
+      <UniqueIdentifier>{b769547b-5718-405b-932c-3901ffb32cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Chromosome\Algorithm\着丝粒点识别">
+      <UniqueIdentifier>{2f49402a-3143-453a-a212-72035078d243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Chromosome\Algorithm\染色体算法文件">
+      <UniqueIdentifier>{b36d2dfd-708e-4e72-a6ef-d954967aa1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chromosome\Algorithm">
+      <UniqueIdentifier>{32771758-9e2b-4ab8-a2af-61b18eb6aa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chromosome\Algorithm\染色体算法文件">
+      <UniqueIdentifier>{9054c0cc-9811-4f6d-a2c0-992adf8d811d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chromosome\Algorithm\着丝粒点识别">
+      <UniqueIdentifier>{e31badfc-721b-4875-a9b9-3977ff0fb7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Hardware">
+      <UniqueIdentifier>{037b0ec1-83df-4f1e-a69e-4165c2e5c851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hardware">
+      <UniqueIdentifier>{c60d1343-816c-4aef-9280-e02a7e4327c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ParaSet">
+      <UniqueIdentifier>{b3f21016-0696-47dc-90d5-8e01e2941533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ParaSet">
+      <UniqueIdentifier>{2bb0147d-ebbb-4319-9b52-90953c97f6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Report">
+      <UniqueIdentifier>{45076e99-ab98-43f4-abd3-e1e7ae62ecd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GridCtrl">
+      <UniqueIdentifier>{cfe1d25e-3460-41e3-83c9-f1f0eda3a11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GridCtrl">
+      <UniqueIdentifier>{aa0d365e-b8b4-46b3-91fd-1496451079d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{c20a7d5c-00ec-40e2-86c9-cea98958ac8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{0bfc5b4f-4fea-4a8a-b993-a82e1e95fb07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GWSystem1.0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GWSystem1.0Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLoad.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOAccess.h">
+      <Filter>头文件\ADO</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOConn.h">
+      <Filter>头文件\ADO</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOView.h">
+      <Filter>头文件\ADO</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOViewAccess.h">
+      <Filter>头文件\ADO</Filter>
+    </ClInclude>
+    <ClInclude Include="Diary.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaryManagement.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMangement.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="UserBuild.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAmend.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeAmend.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeReset.h">
+      <Filter>头文件\UserManage</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideSet.h">
+      <Filter>头文件\SlideSet</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowAllSlides.h">
+      <Filter>头文件\SlideSet</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanAndSaveImg.h">
+      <Filter>头文件\ScanAndSave</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindowImgShow.h">
+      <Filter>头文件\ImgShow</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>头文件\ImgShow</Filter>
+    </ClInclude>
+    <ClInclude Include="MicroNucleusHandle.h">
+      <Filter>头文件\MicroNucleus</Filter>
+    </ClInclude>
+    <ClInclude Include="MNPrintReport.h">
+      <Filter>头文件\MicroNucleus</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\TeeChart</Filter>
+    </ClInclude>
+    <ClInclude Include="BGRMeanDeviation.h">
+      <Filter>头文件\MicroNucleus\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="CutOutGrayRGB.h">
+      <Filter>头文件\MicroNucleus\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="ErodeDilateSeparateMN.h">
+      <Filter>头文件\MicroNucleus\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="findUltra_erosion.h">
+      <Filter>头文件\MicroNucleus\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="mywatershed.h">
+      <Filter>头文件\MicroNucleus\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="MicroNucleusAlgorithm.h">
+      <Filter>头文件\MicroNucleus\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\BlankFrame.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\CR.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\DeleteInterferencePointONThin.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\ExtendThinImage.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\FilteringMethod.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\LineFitLeastSquares.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\LocateCentromere.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\MixDistanceGraylevel.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\Point2Vector.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\SmoothThin.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\ThinImage.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\TrimThin.h">
+      <Filter>头文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\BoolSort.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\ClassClusterInfo.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\ClassifyChromo.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\Count.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\CutFirst.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\CutSecond.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\D8ConnectedComponent.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\DrawClassChromInfoVector.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\HSVRemoveImpurity.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\Int_to_String.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\InterestRegion.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\Invert0_1.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\KmeansCluster.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\Label2Vector_RGB.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\MyFunction.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\NonezeroMeanGrayValue.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\NonezeroMeanRGBVector.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\RandomColor.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\res.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\mywatershed.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanning_Capture.h">
+      <Filter>头文件\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanning_Control.h">
+      <Filter>头文件\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="lucamapi.h">
+      <Filter>头文件\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="lucamerr.h">
+      <Filter>头文件\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Control_Dev.h">
+      <Filter>头文件\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="CchromosomeHandle.h">
+      <Filter>头文件\Chromosome</Filter>
+    </ClInclude>
+    <ClInclude Include="ChromosomeAlgorithm.h">
+      <Filter>头文件\Chromosome</Filter>
+    </ClInclude>
+    <ClInclude Include="ChromosomeResult.h">
+      <Filter>头文件\Chromosome</Filter>
+    </ClInclude>
+    <ClInclude Include="CHROPrintReport.h">
+      <Filter>头文件\Chromosome</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkImgCHRO.h">
+      <Filter>头文件\Chromosome</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminFocusSet.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminMotorSet.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminScanSet.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminSet.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmParaSet.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraParaSetDlg.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="FocusSet.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorControlDlg.h">
+      <Filter>头文件\ParaSet</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareInit.h">
+      <Filter>头文件\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="CTChart.h">
+      <Filter>头文件\TeeChart</Filter>
+    </ClInclude>
+    <ClInclude Include="CSeries.h">
+      <Filter>头文件\TeeChart</Filter>
+    </ClInclude>
+    <ClInclude Include="AllParaSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadAndWriteForAccess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IllusionExcelFile.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="MicroNucleusResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonST.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\CNNpredict.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="染色体算法文件\normalizeImgSizeCNN.h">
+      <Filter>头文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CV_picture.h">
+      <Filter>头文件\Chromosome</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTrans.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTrans.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication0.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange0.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GWSystem1.0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GWSystem1.0Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLoad.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOAccess.cpp">
+      <Filter>源文件\ADO</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOConn.cpp">
+      <Filter>源文件\ADO</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOView.cpp">
+      <Filter>源文件\ADO</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOViewAccess.cpp">
+      <Filter>源文件\ADO</Filter>
+    </ClCompile>
+    <ClCompile Include="Diary.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaryManagement.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeAmend.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMangement.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="UserBuild.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAmend.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeReset.cpp">
+      <Filter>源文件\UserManage</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideSet.cpp">
+      <Filter>源文件\SlideSet</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowAllSlides.cpp">
+      <Filter>源文件\SlideSet</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanAndSaveImg.cpp">
+      <Filter>源文件\ScanAndSave</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowImgShow.cpp">
+      <Filter>源文件\ImgShow</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>源文件\ImgShow</Filter>
+    </ClCompile>
+    <ClCompile Include="MicroNucleusHandle.cpp">
+      <Filter>源文件\MicroNucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="MNPrintReport.cpp">
+      <Filter>源文件\MicroNucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="BGRMeanDeviation.cpp">
+      <Filter>源文件\MicroNucleus\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="CutOutGrayRGB.cpp">
+      <Filter>源文件\MicroNucleus\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="ErodeDilateSeparateMN.cpp">
+      <Filter>源文件\MicroNucleus\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="findUltra_erosion.cpp">
+      <Filter>源文件\MicroNucleus\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="mywatershed.cpp">
+      <Filter>源文件\MicroNucleus\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="MicroNucleusAlgorithm.cpp">
+      <Filter>源文件\MicroNucleus\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\BlankFrame.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\CR.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\DeleteInterferencePointONThin.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\ExtendThinImage.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\FilteringMethod.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\LineFitLeastSquares.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\LocateCentromere.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\MixDistanceGraylevel.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\Point2Vector.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\SmoothThin.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\ThinImage.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="着丝粒点识别\TrimThin.cpp">
+      <Filter>源文件\Chromosome\Algorithm\着丝粒点识别</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\BoolSort.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\ClassClusterInfo.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\ClassifyChromo.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\Count.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\CutFirst.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\CutSecond.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\D8ConnectedComponent.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\DrawClassChromInfoVector.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\HSVRemoveImpurity.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\Int_to_String.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\InterestRegion.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\Invert0_1.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\KmeansCluster.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\Label2Vector_RGB.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\MyFunction.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\mywatershed.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\NonezeroMeanGrayValue.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\NonezeroMeanRGBVector.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\RandomColor.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\res.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanning_Capture.cpp">
+      <Filter>源文件\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanning_Control.cpp">
+      <Filter>源文件\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Control_Dev.cpp">
+      <Filter>源文件\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="CchromosomeHandle.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="ChromosomeAlgorithm.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="ChromosomeResult.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="CHROPrintReport.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorControlDlg.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminFocusSet.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminMotorSet.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminScanSet.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminSet.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmParaSet.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraParaSetDlg.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="FocusSet.cpp">
+      <Filter>源文件\ParaSet</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkImgCHRO.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareInit.cpp">
+      <Filter>源文件\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="CTChart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AllParaSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadAndWriteForAccess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IllusionExcelFile.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="MicroNucleusResult.cpp">
+      <Filter>源文件\MicroNucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonST.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\CNNpredict.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="染色体算法文件\normalizeImgSizeCNN.cpp">
+      <Filter>源文件\Chromosome\Algorithm\染色体算法文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CV_picture.cpp">
+      <Filter>源文件\Chromosome</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTrans.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTrans.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GWSystem1.0.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GWSystem10.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\model.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GWSystem1.0.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\camera.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit_undo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\game_pad.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\setting.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lucamapi.lib" />
+  </ItemGroup>
+</Project>
